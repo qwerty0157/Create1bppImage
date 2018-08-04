@@ -9,11 +9,25 @@ namespace Create1bppImage
     {
         public static void Main(string[] args)
         {
+            create1bppImage();
+            create1bppImageByErrorDiffusion();
+        }
+
+        public static void create1bppImage()
+        {
+            var image = (Bitmap)Image.FromFile("../../../../input/wtnbyou.png");
+            var brightness = 0.80;
+            var bmpImage = Create1bppImage.Create1bppImagefunction(image, brightness); 
+            bmpImage.Save("../../../../input/1bpp_wtnbyou.png");
+        }
+
+        public static void create1bppImageByErrorDiffusion()
+        {
             var dir = Directory.GetCurrentDirectory();
             Console.WriteLine(dir);
             var image = (Bitmap)Image.FromFile("../../../../input/wtnbyou.png");
             var bmpImage = Create1bppImageWithErrorDiffusion.Create1bppImageWithErrorDiffusionfunction(image);
-            bmpImage.Save("../../../../input/1bpp_wtnbyou.png");
+            bmpImage.Save("../../../../input/1bpp_wtnbyouByErrorDiffusion.png");
         }
     }
 }
