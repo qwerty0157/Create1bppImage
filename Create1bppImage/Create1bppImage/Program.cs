@@ -12,7 +12,8 @@ namespace Create1bppImage
             var dir = Directory.GetCurrentDirectory();
             Console.WriteLine(dir);
             var image = (Bitmap)Image.FromFile("../../../../input/wtnbyou.png");
-            var bmp = Create1bppImageWithErrorDiffusion.Create1bppImageWithErrorDiffusionfunction(image);
+            var bmpImage = Create1bppImageWithErrorDiffusion.Create1bppImageWithErrorDiffusionfunction(image);
+            bmpImage.Save("../../../../input/1bpp_wtnbyou.png");
         }
     }
 }
