@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Create1bppImageWithErrorDiffusion.cs" />
     <Compile Include="Create1bppImage.cs" />
+    <Compile Include="CreateGrayScale.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

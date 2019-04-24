@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{77C9B874-154E-4BF8-8C7C-C8AA9594C2F2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Create1bppImage/Program.cs">
+    <Files>
+      <File FileName="Create1bppImage/Program.cs" Line="12" Column="31" />
+      <File FileName="Create1bppImage/Create1bppImageWithErrorDiffusion.cs" Line="11" Column="1" />
+      <File FileName="Create1bppImage/Create1bppImage.cs" Line="13" Column="23" />
+      <File FileName="Create1bppImage/CreateGrayScale.cs" Line="33" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Create1bppImage PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
